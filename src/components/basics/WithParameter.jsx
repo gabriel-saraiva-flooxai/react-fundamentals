@@ -1,7 +1,8 @@
 import React from "react"
 
 export default function WithParameter(props) {
-    const status = props.nota >= 7 ? 'aprovado' : 'reprovado'
+    const rounded = Math.ceil(props.nota)
+    const status = rounded >= 7 ? 'aprovado' : 'reprovado'
 
     return (
         <div>
@@ -9,8 +10,8 @@ export default function WithParameter(props) {
             <p>
                 A nota do aluno: 
                 <strong> { props.aluno } </strong>
-                 é 
-                <strong> { props.nota } </strong>
+                é
+                <strong> { rounded } </strong>
                 e está
                 <strong> { status } </strong>
             </p>
