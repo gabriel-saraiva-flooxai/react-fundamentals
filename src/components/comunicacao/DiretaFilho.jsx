@@ -5,7 +5,7 @@ export default props => {
         <div>
             <span>{props.nome} </span>
             <span><strong>{props.idade}</strong> </span>
-            <span>{props.gay ? 'Verdade' : 'Mentira'}!</span>
+            <span>{props.laele ? 'Ele goxta' : 'Rapazz'}!</span>
         </div>
     )
 }

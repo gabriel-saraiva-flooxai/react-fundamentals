@@ -3,6 +3,7 @@ import React from "react";
 
 import Card from "./components/layout/Card";
 
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 import DiretaPai from './components/comunicacao/DiretaPai';
 import UsuatioInfo from './components/condicional/UsuatioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar';
@@ -20,11 +21,15 @@ export default () => (
         <h1>Fundamentos React</h1>
         <div className='Cards'>
 
-            <Card titulo="#09 - Direct Communication" color="#888">
+            <Card titulo="#10 - Indirect Communication" color="#888">
+                <IndiretaPai></IndiretaPai>
+            </Card>
+
+            <Card titulo="#09 - Direct Communication" color="#001449">
                 <DiretaPai></DiretaPai>
             </Card>
 
-            <Card titulo="#08 - Conditional Renderization" color="#888">
+            <Card titulo="#08 - Conditional Renderization" color="#000">
                 <ParOuImpar numero={23}></ParOuImpar>
                 <UsuatioInfo usuario={{ nome: 'Guedes' }} />
                 <UsuatioInfo usuario={{}} />
