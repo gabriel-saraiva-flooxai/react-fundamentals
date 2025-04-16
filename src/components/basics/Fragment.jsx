@@ -11,4 +11,4 @@ export default function Fragment(props) {
         // Apenas utilizar assim se não precisar de PROPRIEDADE
     )
 
-}
+};

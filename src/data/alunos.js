@@ -8,4 +8,4 @@ export default [
     { id: 7, nome: 'Gabriel', nota: 8.3},
     { id: 8, nome: 'Henrique', nota: 3.9},
     { id: 9, nome: 'Izrael', nota: 5.2},
-]
+];
