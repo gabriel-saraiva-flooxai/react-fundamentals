@@ -3,6 +3,7 @@ import React from "react";
 
 import Card from "./components/layout/Card";
 
+import Mega from './components/mega/Mega';
 import Contador from './components/contador/Contador';
 import Input from './components/formulario/Input';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
@@ -22,6 +23,10 @@ export default () => (
     <div className="App">
         <h1>Fundamentos React</h1>
         <div className='Cards'>
+
+            <Card titulo="#13 - Mega" color="#317d25">
+                <Mega qtde={6}/>
+            </Card>
 
             <Card titulo="#12 - Counter" color="#fc7f03">
                 <Contador numeroInicial={0}></Contador>
